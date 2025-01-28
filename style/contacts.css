@@ -1,0 +1,280 @@
+.contacts {
+  padding: 48px 0 113px;
+  margin: 0 auto;
+  background-color: var(--bg-section);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    background: linear-gradient(180deg, var(--color-design-white) 172px, var(--bg-section) 0);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .contacts {
+    padding: 69px 0 158px;
+    background: linear-gradient(180deg, var(--color-design-white) 197px, var(--bg-section) 0);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts {
+    padding: 92px 0 165px;
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 1), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 1), screen and (min-width: 1280px) and (min-resolution: 1dppx), screen and (min-width: 1280px) and (min-resolution: 96dpi) {
+  .contacts {
+    background-image: url(/ice-cream/section_background.f2d0530f.png), linear-gradient(180deg, var(--color-design-white) 230px, var(--bg-section) 0);
+  }
+}
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 2dppx), screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .contacts {
+    background-image: url(/ice-cream/section_background@2x.d6c77b57.png), linear-gradient(180deg, var(--color-design-white) 230px, var(--bg-section) 0);
+    background-size: 1920px 384px, auto;
+    background-position: 50%, top;
+  }
+}
+.contacts__item-title {
+  background: var(--bg-beige-color);
+  color: var(--color-design-white);
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 0 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .contacts__item-title {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts__item-title {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__item-title {
+    margin-bottom: 32px;
+  }
+}
+.contacts__list {
+  width: 100%;
+  max-width: 380px;
+  font-weight: 500;
+  margin: 0 auto 54px;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__list {
+    display: flex;
+    max-width: 768px;
+    margin-bottom: 81px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__list {
+    max-width: 1150px;
+    margin-bottom: 86px;
+  }
+}
+.contacts__item {
+  max-width: 100%;
+  margin-bottom: 20px;
+  padding: 43px 20px;
+  font-size: 12px;
+  line-height: 1.86;
+  background: var(--color-design-white);
+  box-shadow: 0 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+
+.contacts__item--black {
+  color: var(--color-design-black);
+}
+
+.contacts__item--grey {
+  color: var(--color-description);
+}
+
+.contacts__item--purple {
+  color: var(--color-subtitle);
+}
+
+.contacts__item:nth-child(2n) .contacts__item-title {
+  background: var(--bg-green-color);
+}
+
+.contacts__item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__item--grey {
+  line-height: 1.5;
+}
+
+.contacts__item .contacts__link {
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__item .contacts__link {
+    line-height: 1.83;
+  }
+}
+@media screen and (min-width: 480px) {
+  .contacts__item {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts__item {
+    width: 233.33333px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding: 50px 32px 50px 31px;
+  }
+  .contacts__item:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__item {
+    width: 383.33333px;
+    margin-right: 31px;
+    padding: 51px 44px 51px 43px;
+    font-size: 16px;
+  }
+  .contacts__item:last-child {
+    margin-right: 0;
+  }
+}
+.contacts__item-header li:first-child {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__item-header li:first-child {
+    margin-bottom: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts__item-header li:last-child {
+    line-height: 1.66;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__item-header li:last-child {
+    line-height: 1.83;
+  }
+}
+.contacts__item-body:after, .contacts__item-header:after {
+  display: block;
+  width: 100%;
+  margin: 25px 0;
+  content: "";
+  border-bottom: 1px solid var(--color-line-in-contacts);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__item-body:after, .contacts__item-header:after {
+    margin: 30px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__item-body:after, .contacts__item-header:after {
+    margin: 32px 0;
+  }
+}
+.contacts__item-body li:nth-child(2n) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__item-body li:nth-child(2n) {
+    margin-bottom: 14px;
+  }
+}
+.contacts__item-body li:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__link--grey {
+  color: var(--color-description);
+}
+
+.contacts__modal-list {
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__modal-list {
+    display: flex;
+  }
+}
+.contacts__button.btn-dark, .contacts__button.btn-light {
+  font-size: 16px;
+  justify-content: center;
+  border-radius: 22px;
+  width: 161px;
+  padding: 0 17px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.contacts__button.btn-dark {
+  fill: var(--bg-btn-light);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__button.btn-dark {
+    padding: 0 34px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__button.btn-dark {
+    padding: 0 37px;
+    width: auto;
+  }
+}
+.contacts__button.btn-light {
+  fill: var(--bg-btn-dark);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__button.btn-light {
+    padding: 0 41px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts__button.btn-light {
+    padding: 0 44px;
+    width: auto;
+  }
+}
+.contacts__modal-item:first-child {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__modal-item:first-child {
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+}
+.contacts__arrow {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  margin-top: 2px;
+}/*# sourceMappingURL=contacts.css.map */
